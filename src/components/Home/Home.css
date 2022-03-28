@@ -1,0 +1,78 @@
+.carousel.slide {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.carousel-item img {
+    max-width: 400px;
+    float: right;
+}
+
+.carousel-caption {
+    color: #fff;
+    text-align: left;
+    bottom: 100px !important;
+}
+
+@media (max-width:767px) {
+    .carousel-caption {
+        display: none;
+        position: relative;
+        bottom: -20%!important;
+    }
+    .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-item.active img {
+        max-width:300px;
+        text-align: left;
+    }
+}
+
+.carousel-caption h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.carousel-caption .btn {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #4457C3;
+    border-radius: 2px!important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: -200px;
+    filter: invert(1);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+{
+    filter: invert(1);
+    background-color: #3F51B5;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-indicators {
+    bottom: -80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fff;
+}

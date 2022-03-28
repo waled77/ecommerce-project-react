@@ -1,0 +1,97 @@
+.cart-header {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cart ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0;
+}
+.cart li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4D60CC;
+    border-bottom: .5px solid #eee;
+    line-height: 60px;
+    color: #fff;
+}
+
+.cart li p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.cart img {
+    width: 45px;
+}
+
+.cart .btn-delete {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #4D60CC;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D60CC;
+    height: 100px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.total-text {
+    font-size: 15px;
+}
+
+.total-text span {
+    font-weight: bold;
+}
+
+.cart .btn-proceed {
+    width: 100%;
+    display: block!important;
+    margin: 20px 0;
+    border-radius: 4px!important;
+    height: 40px;
+    background-color: #fff;
+    color: #4D60CC;
+}
+
+form .form-group {
+    margin: 10px 0;
+    color: #fff;
+}
+
+form .form-group label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+form .btn-checkout {
+    width: 100%;
+    display: block!important;
+    margin: 20px 0;
+    border-radius: 4px!important;
+    height: 40px;
+    background-color: #fff;
+    border: 0!important;
+    color: #4D60CC;
+    transition: .3s linear;
+}
+
+form .btn-checkout:hover {
+    background-color: #fff;
+    color: #4D60CC;
+}

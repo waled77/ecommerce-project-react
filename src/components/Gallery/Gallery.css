@@ -1,0 +1,41 @@
+.gallery {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.gallery img {
+    width: 1000px;
+    height: 420px;
+    border-radius: 4px;
+    background-color: #ddd;
+    margin-right: 10px;
+}
+
+.gallery .left-arrow,
+.gallery .right-arrow 
+{
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    user-select: none;
+}
+
+.gallery .left-arrow {
+    left: 32px;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gallery .right-arrow {
+    right: 32px;
+    z-index: 10;
+    cursor: pointer;
+}

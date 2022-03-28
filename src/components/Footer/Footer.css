@@ -1,0 +1,63 @@
+.footer {
+    background-color: #4457C3;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 4px 4px 40px 4px #3b4ba3;
+}
+
+.footer .title {
+    font-size: 17px;
+    padding: 15px 0;
+    display: block;
+}
+
+.footer .list-links {
+    margin: 0;
+    padding: 0;
+}
+
+.footer .list-links li {
+    color: #fff;
+    line-height: 38px;
+}  
+
+.footer .list-links li a {
+    color: #fff;
+    font-size: 13.5px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.footer form input {
+    width: 65%;
+    height: 40px;
+    background: none;
+    outline: 0;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer form input::placeholder {
+    color: #fff;
+}
+
+.footer form .btn {
+    width: 25%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0!important;
+    color: #4457C3;
+}
+
+.footer form .info {
+    font-size: 12px;
+    color: #eee;
+    line-height: 1.6;
+}
+
